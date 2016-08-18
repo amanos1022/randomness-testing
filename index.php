@@ -185,7 +185,7 @@ if(isset($_POST['num_items']) && isset($_POST['picked_items']) && isset($_POST['
 <div style="z-index:2;background:rgba(255,255,255,.7);width:100%;height:100px;">100%</div>
 
 <h2>Fisher Yates Shuffle</h2>
-<div class="container" style="margin-top:100px;">
+<div class="container">
 <?php
     if(isset($_POST['num_items']) && isset($_POST['picked_items']) && isset($_POST['iterations'])){
         foreach($grouped2 as $group){
